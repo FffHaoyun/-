@@ -1,0 +1,30 @@
+<view class="page">
+  <view class="pad">
+    <view class="page__title">关于作者</view>
+    <view class="card">
+      <text>lizifan\n 重庆移通学院</text>
+    </view>
+    <view class="page__title">联系方式</view>
+    <view class="weui-grids qrcode-card">
+      <view class="weui-grid" hover-class="weui-grid_active">
+        <view class="weui-grid__label">微信</view>
+        <image class="image" mode="widthFix" src="http://127.0.0.1:8003/static/images/weixin.jpg"></image>
+      </view>
+      <view class="weui-grid" hover-class="weui-grid_active">
+        <view class="weui-grid__label">QQ</view>
+        <image class="image" mode="widthFix" src="http://127.0.0.1:8003/static/images/qq.jpg"></image>
+      </view>
+      <view class="weui-grid" hover-class="weui-grid_active">
+        <view class="weui-grid__label">GitHub</view>
+        <image class="image" mode="widthFix" src="http://127.0.0.1:8003/static/images/qq_group.jpg"></image>
+      </view>
+    </view>
+    <view class="page__title">联系地址</view>
+    <view class="card">
+      <view style="text-align: center;color: blue;">联系地址：重庆市合川区移通学院</view>
+        <map id="map" style="width: 100%;height: 400rpx;" latitude="{{lat}}" longitude="{{lon}}" markers="{{markers}}"></map>
+    </view>
+  </view>
+</view>
+
+<include src="../common/foot.wxml"></include>

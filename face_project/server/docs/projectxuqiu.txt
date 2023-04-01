@@ -1,0 +1,31 @@
+后端项目目录
+采用MVT思想
+
+|---- manage.py # 入口启动文件
+|---- app # 应用包
+|-------- _init_py # 初始化模块
+|-------- configs.py # 配置信息模块
+|-------- urls.py # 路由和视图映射模块
+|-------- models # 存放模型的包
+|-------- templates # 存放模板的目录
+|-------- admin # 存放后台管理系统的视图
+|-------- api # 存放和前端交互API的视图
+|-------- common # 公共包
+|-------- static # 静态资源目录
+|-------- ui # ui包
+
+
+net start mongodb 启动mongodb服务
+mongo.exe 连接到mongodb
+
+ip地址解析
+IP -> 地区名称
+
+
+UA访问跟踪
+UA -> user agent -> 用户代理
+
+常见error
+Object of type 'HTTPHeaders' is not JSON serializable
+
+这个HTTPHeaders对象不能进行json序列化
